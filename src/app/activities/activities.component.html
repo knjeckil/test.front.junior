@@ -1,0 +1,17 @@
+<h2 class="main">Activités touristiques</h2>
+<div class="grid">
+  <div class="grid-md4 grid-lg6" *ngFor="let activity of activities">
+    <div class ="card">
+      <div class="card-image">
+          <img [src]="activity.thumbnail">
+      </div>
+      <div class="card-content">
+        <h2>{{activity.name}}</h2>
+        <p>{{activity.description}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+

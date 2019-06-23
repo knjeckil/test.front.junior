@@ -6,6 +6,7 @@ import { DestinationResolver } from './destination.resolver';
 
 const routes = [
 	{ path: ':id', component: DestinationComponent, resolve: { destination: DestinationResolver }},
+
 ] as Routes;
 
 @NgModule({
