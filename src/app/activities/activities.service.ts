@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Activity } from './activity';
 import { Observable } from 'rxjs';
-import { PARAMETERS } from '@angular/core/src/util/decorators';
 
 @Injectable({
   providedIn: 'root'
